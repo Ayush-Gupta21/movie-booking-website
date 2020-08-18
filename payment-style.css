@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-image: url(./payment-back.svg);
+    background-size: cover;
+}
+form{
+    box-shadow: 1px 1px 10px gray;
+    padding: 10px 30px 30px 30px;
+    background-color: white;
+}
+h1{
+    color: rgb(121, 121, 121);
+}
+hr{
+    color: rgb(168, 168, 168);
+}
+#name, #number{
+    width: 370px;
+    height: 30px;
+}
+
+.name, .number, .cvv, .date{
+    margin-top: 20px;
+}
+
+.name label{
+    color: rgb(177, 177, 177);
+}
+.name input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+.number label{
+    color: rgb(177, 177, 177);
+}
+.number input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+.cvv label{
+    color: rgb(177, 177, 177);
+}
+.cvv input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+.date label{
+    color: rgb(177, 177, 177);
+}
+.date input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cvv input{
+    width: 80px;
+    height: 30px;
+}
+
+.date{
+    margin-left: 20px;
+}
+
+.date input{
+    width: 265px;
+    height: 35px;
+    padding: 5px;
+}
+
+.payment-btn{
+    width: 380px;
+    height: 50px;
+    background-color: #60FFF4;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}

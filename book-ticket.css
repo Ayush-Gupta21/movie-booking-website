@@ -1,0 +1,118 @@
+body{
+    /* background-image: linear-gradient(to right, rgb(0, 255, 255), rgba(255, 255, 255, 0.466)); */
+    background-image: linear-gradient( #ff870e, #FFFFFF, #138808);
+}
+#email{
+    width: 370px;
+    height: 30px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email label{
+    color: rgb(177, 177, 177);
+}
+.email input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+#booking{
+    width: 370px;
+    height: 33px;
+}
+
+.booking-date{
+    margin-top: 20px;
+}
+
+.booking-date label{
+    color: rgb(177, 177, 177);
+}
+.booking-date input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+#seat{
+    width: 385px;
+    height: 40px;
+}
+
+.seat-category{
+    margin-top: 20px;
+}
+
+.seat-category label{
+    color: rgb(177, 177, 177);
+}
+.seat-category select{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.seat-category option{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tickets{
+    width: 100px;
+    height: 33px;
+}
+
+.no-of-tickets{
+    margin-top: 20px;
+}
+
+.no-of-tickets label{
+    color: rgb(177, 177, 177);
+}
+.no-of-tickets input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+}
+#total{
+    width: 200px;
+    height: 33px;
+}
+
+.total{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.total label{
+    color: rgb(177, 177, 177);
+    font-size: 40px;
+    color: black;
+}
+.total input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+#movie{
+    width: 370px;
+    height: 30px;
+}
+.movie{
+    margin-top: 20px;
+}
+
+.movie label{
+    color: rgb(177, 177, 177);
+}
+.movie input{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}

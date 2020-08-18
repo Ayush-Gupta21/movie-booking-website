@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./payment-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pangolin&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+
+    <form action="./congrats.html" style="width: 25%; margin: 100px auto;">
+        <h1>PAYMENT DETAILS</h1> 
+        <hr>
+        <div class="name">
+            <label for="name">NAME ON CARD</label><br>
+            <input type="text" id="name" name="name" required><br>
+        </div>
+        <div class="number">
+            <label for="number">CARD NUMBER</label><br>
+            <input type="text" id="number" name="card-number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="3333-3333-3333-3333" title="Required Format 3333-3333-3333-3333" required >
+        </div>
+        <div style="display: flex;">
+            <div class="cvv">
+                <label for="cvv">CVV</label><br>
+                <input type="password" id="cvv" name="cvv" minlength="3" maxlength="3" required>
+            </div>
+            <div class="date">
+                <label for="through">VALID THROUGH</label><br>
+                <input type="date" id="through" name="valid-through" required>
+            </div>
+        </div>
+        <button type="submit" style="font-family: Arial, Helvetica, sans-serif;" id="pay-btn" class="payment-btn">PAYMENT</button>
+    </form>
+<script>
+    const queryString = window.location.search;
+    const urlParams   = new URLSearchParams(queryString);
+    const total   = urlParams.get("total");
+    document.getElementById("pay-btn").innerHTML = "PAY - " + total
+</script>
+</body>
+</html>
